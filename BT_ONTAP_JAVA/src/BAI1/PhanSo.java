@@ -6,11 +6,6 @@ package BAI1;
 
 import java.util.Scanner;
 
-
-/**
- *
- * @author Admin
- */
 public class PhanSo {
     //thuộc tính
     private int tuSo147;
@@ -66,21 +61,18 @@ public class PhanSo {
     public PhanSo truPS(PhanSo ps2){
         int a147 = tuSo147*ps2.mauSo147 - ps2.tuSo147*mauSo147;
         int b147 = mauSo147 * ps2.mauSo147;
-        
         return new PhanSo(a147,b147);
     }
     //nhân phân số
     public PhanSo nhanPS(PhanSo ps2){
         int a147 = tuSo147* ps2.tuSo147;
         int b147 = mauSo147 * ps2.mauSo147;
-        
         return new PhanSo(a147,b147);
     }
     //chia phân số
     public PhanSo chiaPS(PhanSo ps2){
         int a147 = tuSo147* ps2.mauSo147;
         int b147 = mauSo147 * ps2.tuSo147;
-        
         return new PhanSo(a147,b147);
     }
     //tìm UCLN

@@ -6,10 +6,6 @@ package BAI3;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Admin
- */
 public class TapChi extends TaiLieu{
     private int soPhatHanh147;
     private int thangPhatHanh147;

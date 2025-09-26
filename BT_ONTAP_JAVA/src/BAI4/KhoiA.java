@@ -6,10 +6,6 @@ package BAI4;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Admin
- */
 public class KhoiA extends ThiSinh {
     private String mon1147;
     private String mon2147;

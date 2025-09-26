@@ -49,7 +49,7 @@ public class QuanLySach {
     }
     public void timMaTL(String maTL147){
         for(TaiLieu TL147: dstl147){
-            if(maTL147.equals(TL147)){
+            if(maTL147.equals(TL147.getMaTaiLieu())){
                 TL147.hienThiThongTin();
             }
         } 
