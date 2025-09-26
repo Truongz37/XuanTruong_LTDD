@@ -6,10 +6,6 @@ package BAI3;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Admin
- */
 public class Sach extends TaiLieu{
     private String tacGia147;
     private int soTrang147;
