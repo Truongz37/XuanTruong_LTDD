@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# -------- Android Studio --------
 *.iml
 .gradle
 /local.properties
@@ -14,9 +14,9 @@
 .externalNativeBuild
 .cxx
 local.properties
-=======
+
+# -------- NetBeans --------
 /BT_ONTAPJAVA/target/
 /BT_ONTAP_JAVA/nbproject/private/
 /BT_ONTAP_JAVA/build/
 /BT_ONTAP_JAVA/dist/
->>>>>>> 9a4f7afbe233153487015df5c701383f1f96e0f9
