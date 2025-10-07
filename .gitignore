@@ -1,22 +1,21 @@
-# -------- Android Studio --------
+# -------- Android Studio / IntelliJ --------
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
 local.properties
+**/.idea/
+**/.gradle/
+**/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+
+# -------- macOS / Windows --------
+.DS_Store
+Thumbs.db
 
 # -------- NetBeans --------
-/BT_ONTAPJAVA/target/
-/BT_ONTAP_JAVA/nbproject/private/
-/BT_ONTAP_JAVA/build/
-/BT_ONTAP_JAVA/dist/
+**/nbproject/private/
+**/build/
+**/dist/
+**/target/
+
